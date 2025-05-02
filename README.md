@@ -1,29 +1,45 @@
-# what2watch
+# 🎬 What2Watch: Streaming Platform Recommender
 
-This template should help get you started developing with Vue 3 in Vite.
+**What2Watch** is a Vue 3 web application that helps users decide which streaming service (e.g., Netflix, Disney+, Prime Video) best matches their movie preferences.  
+By analyzing the movies you like, it identifies **which platforms offer the highest overlap**, helping you make smarter subscription choices.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Features
 
-## Customize configuration
+- 📊 **Platform Analysis** — See which streaming service hosts the most movies you enjoy
+- 🎥 **Taste Quiz** — Select your preferences to receive curated results
+- 🔍 **Smart Filters** — Filter recommendations by genre or platform
+- 🧠 **Personalized Dashboard** — Clean UI showing real-time match percentages
+- 📱 **Responsive Design** — Fully functional on desktop and mobile
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🧰 Tech Stack
 
-```sh
+- **Frontend**: Vue 3, Vite
+- **State Management**: Pinia / Vuex (if applicable)
+- **Authentication & Backend**: Firebase
+- **Data Layer**: GraphQL (Apollo Client)
+- **Hosting**: Firebase Hosting
+
+---
+
+## 🖥️ Demo
+
+🔗 [Live Demo](https://what2watch-e748e.web.app/guest)  
+*Deployed via FireBase*
+
+---
+
+## 📦 Project Setup
+
+```bash
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Run local dev server
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
-```
